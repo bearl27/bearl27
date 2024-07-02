@@ -9,7 +9,7 @@
  - 👩‍🎓 I am a student engineer.
  - 🌱 I’m currently learning Unity and mobileApp!
  - [Twitter - @bearl](https://twitter.com/bearl_develop)
- - <div>[Qiita - @bearl27](https://qiita.com/bearl27)</div>
+ - [Qiita - @bearl27](https://qiita.com/bearl27)
 
 
 <br>
