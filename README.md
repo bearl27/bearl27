@@ -8,8 +8,8 @@
 
  - 👩‍🎓 I am a student engineer.
  - 🌱 I’m currently learning Unity and mobileApp!
- - https://twitter.com/bearl_develop
- - https://qiita.com/bearl27
+ - [Twitter - @bearl]https://twitter.com/bearl_develop
+ - <p color.green>[Qiita - @bearl27]https://qiita.com/bearl27 </p>
 
 
 <br>
