@@ -14,11 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=bearl27&theme=noctis_minimus&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bearl27&repo=pathy&theme=noctis_minimus)](https://github.com/bearl27/pathy)
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=bearl27&repo=helpman&theme=noctis_minimus)](https://github.com/bearl27/helpman)
 
  <p align="left"> 
   <img alt="Top Langs" height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bearl27&layout=compact&count_private=true&show_icons=true&theme=tokyonight" />
