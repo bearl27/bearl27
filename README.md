@@ -17,12 +17,26 @@
 <br>
 
 ## 🌱 Skills
-[![My Skills](https://skillicons.dev/icons?i=react)](https://react.dev/)
-[![My Skills](https://skillicons.dev/icons?i=nextjs)](https://nextjs.org/)
-[![My Skills](https://skillicons.dev/icons?i=ts)](https://www.typescriptlang.org/)
-[![My Skills](https://skillicons.dev/icons?i=css)](https://developer.mozilla.org/ja/docs/Web/CSS/Reference)
-[![My Skills](https://skillicons.dev/icons?i=figma)](https://www.figma.com/)
-[![My Skills](https://skillicons.dev/icons?i=docker)](https://www.docker.com/)
+![My Skills](https://skillicons.dev/icons?i=react)
+![My Skills](https://skillicons.dev/icons?i=nextjs)
+![My Skills](https://skillicons.dev/icons?i=mui)
+![My Skills](https://skillicons.dev/icons?i=tailwind)
+![My Skills](https://skillicons.dev/icons?i=html)
+![My Skills](https://skillicons.dev/icons?i=css)
+![My Skills](https://skillicons.dev/icons?i=js)
+![My Skills](https://skillicons.dev/icons?i=ts)
+![My Skills](https://skillicons.dev/icons?i=blender)
+![My Skills](https://skillicons.dev/icons?i=figma)
+![My Skills](https://skillicons.dev/icons?i=unity)
+![My Skills](https://skillicons.dev/icons?i=cs)
+![My Skills](https://skillicons.dev/icons?i=cpp)
+![My Skills](https://skillicons.dev/icons?i=python)
+![My Skills](https://skillicons.dev/icons?i=androidstudio)
+![My Skills](https://skillicons.dev/icons?i=java)
+![My Skills](https://skillicons.dev/icons?i=swift)
+![My Skills](https://skillicons.dev/icons?i=firebase)
+![My Skills](https://skillicons.dev/icons?i=github)
+
 
 
 ## 🏃‍♀️ Activities
