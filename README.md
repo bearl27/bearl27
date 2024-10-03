@@ -25,6 +25,7 @@
 ![My Skills](https://skillicons.dev/icons?i=css)
 ![My Skills](https://skillicons.dev/icons?i=js)
 ![My Skills](https://skillicons.dev/icons?i=ts)
+![My Skills](https://skillicons.dev/icons?i=threejs)
 ![My Skills](https://skillicons.dev/icons?i=blender)
 ![My Skills](https://skillicons.dev/icons?i=figma)
 ![My Skills](https://skillicons.dev/icons?i=unity)
