@@ -50,3 +50,113 @@
 
 
 [![](https://github-readme-streak-stats.herokuapp.com/?user=bearl27&theme=tokyonight)](https://github-readme-streak-stats.herokuapp.com/?user=bearl27&theme=tokyonight)
+
+
+
+```
+void KeyEvent(unsigned char key, int x, int y)
+{
+	if(gamemode == 0){
+		if (key == 0x0D) {
+			gamemode = 1;
+			printf("Game Started\n");
+		}
+        if (key == 0x1b) {
+			Cleanup();
+			exit(0);
+		}
+	}else if(gamemode == 1){
+		// ESCキーを入力したらアプリケーション終了
+		if (key == 0x1b) {
+			Cleanup();
+			exit(0);
+		}
+		// エンターキーで単語チェック
+		else if (key == 0x0D && gameStarted) {
+			bool correctWordFound = false;
+
+			// 4方向の単語をチェック
+			if (!correctWordFound && !wordList.empty()) {
+				for (size_t i = 0; i < 4 && i < currentWordList.size(); ++i) {
+					if (inputBuffer == currentWordList[i]) {
+						printf("正解！%s方向の単語が正解です。次の単語に進みます。\n", directionNames[i]);
+
+						for (int j = 0; j < Object::objects.size(); ++j) {
+							if (directionNames[i] == "Top") {
+								// 条件に一致するオブジェクトをすべて削除
+								Object::objects.erase(
+									std::remove_if(Object::objects.begin(), Object::objects.end(),
+										[](const Object& obj) {
+											return obj.which_circle == 1; // 上方向のオブジェクトを判定
+										}),
+									Object::objects.end());
+							}
+							else if (directionNames[i] == "Bottom") {
+								// 条件に一致するオブジェクトをすべて削除
+								Object::objects.erase(
+									std::remove_if(Object::objects.begin(), Object::objects.end(),
+										[](const Object& obj) {
+											return obj.which_circle == 0; // 下方向のオブジェクトを判定
+										}),
+									Object::objects.end());
+							}
+							else if (directionNames[i] == "Left") {
+								// 条件に一致するオブジェクトをすべて削除
+								Object::objects.erase(
+									std::remove_if(Object::objects.begin(), Object::objects.end(),
+										[](const Object& obj) {
+											return obj.which_circle == 2; // 左方向のオブジェクトを判定
+										}),
+									Object::objects.end());
+							}
+							else if (directionNames[i] == "Right") {
+								// 条件に一致するオブジェクトをすべて削除
+								Object::objects.erase(
+									std::remove_if(Object::objects.begin(), Object::objects.end(),
+										[](const Object& obj) {
+											return obj.which_circle == 3; // 右方向のオブジェクトを判定
+										}),
+									Object::objects.end());
+							}
+						}
+
+						correctWordFound = true;
+
+						// 正解時の処理を追加
+						showCorrectAnswer = true;
+						correctAnswerStartTime = glutGet(GLUT_ELAPSED_TIME);
+						correctWord = currentWordList[i];
+						correctWordDirection = i;  // 正解の方向を記録
+					}
+				}
+				if (!correctWordFound) {
+					printf("不正解。もう一度試してください。\n");
+					showFailedAnswer();
+				}
+			}
+
+			// バッファをクリア
+			inputBuffer.clear();
+		}
+		// バックスペースキー
+		else if (key == 0x08 && !inputBuffer.empty()) {
+			inputBuffer.pop_back();
+		}
+		// 通常の文字入力
+		else if (key >= 32 && key <= 126) {
+			inputBuffer += key;
+		}
+	}else if(gamemode == 2){
+        if (key == 0x0D) {
+            gamemode = 0;
+            life = 3;
+            printf("Press Enter to start the game\n");
+        }
+        if (key == 0x1b) {
+			Cleanup();
+			exit(0);
+		}
+    }
+}
+
+```
