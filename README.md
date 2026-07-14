@@ -6,7 +6,7 @@
 <h1 align="center">Hi, I'm bearl27  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"></h1>
 <br>
 
- - 👩‍🎓 I am a student engineer.
+ - 👩‍🎓 I am a engineer.
  - 🌱 I’m currently learning Unity and webApp!
  - [Twitter - @bearl](https://twitter.com/bearl_develop)
  - [Qiita - @bearl27](https://qiita.com/bearl27)
