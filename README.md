@@ -11,7 +11,7 @@
  - [Twitter - @bearl](https://twitter.com/bearl_develop)
  - [Qiita - @bearl27](https://qiita.com/bearl27)
  - [SpeakerDeck - @bearl](https://speakerdeck.com/bearl27)
- - [Portforio](https://bearl27.github.io/)
+ 
 
 
 <br>
